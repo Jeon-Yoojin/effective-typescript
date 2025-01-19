@@ -12,5 +12,6 @@
     - [아이템5 any 타입 지양하기.md](https://github.com/Jungle-JavaScript-Study/effective-typescript/blob/main/1%EC%9E%A5%20%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/%EC%95%84%EC%9D%B4%ED%85%9C5%20any%20%ED%83%80%EC%9E%85%20%EC%A7%80%EC%96%91%ED%95%98%EA%B8%B0.md)
 - 2장 타입스크립트의 타입 시스템
     - [아이템6 편집기를 사용하여 타입 시스템 탐색하기.md](https://github.com/Jungle-JavaScript-Study/effective-typescript/blob/main/2%EC%9E%A5%20%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98%20%ED%83%80%EC%9E%85%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%EC%95%84%EC%9D%B4%ED%85%9C6%20%ED%8E%B8%EC%A7%91%EA%B8%B0%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC%20%ED%83%80%EC%9E%85%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%ED%83%90%EC%83%89%ED%95%98%EA%B8%B0.md)
+    - [아이템7 타입이 값들의 집합이라고 생각하기.md](https://github.com/Jungle-JavaScript-Study/effective-typescript/blob/main/2%EC%9E%A5%20%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98%20%ED%83%80%EC%9E%85%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%EC%95%84%EC%9D%B4%ED%85%9C7%20%ED%83%80%EC%9E%85%EC%9D%B4%20%EA%B0%92%EB%93%A4%EC%9D%98%20%EC%A7%91%ED%95%A9%EC%9D%B4%EB%9D%BC%EA%B3%A0%20%EC%83%9D%EA%B0%81%ED%95%98%EA%B8%B0.md)
 
 <!-- FOLDER_STRUCTURE_END -->
