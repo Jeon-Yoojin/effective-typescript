@@ -13,3 +13,7 @@ const myHome: Readonly<Home> = { room: { count: 3 } };
 myHome.room = { count: 4 };
 myHome.room.count = 4;
 ```
+
+- Readonly는 얕게 동작함.
+- room 안의 카운트 필드를 직접 수정하는 건 되는데, room 객체 자체를 바꾸면 오류남.
+- 1번은 안되고 2번은 된다. 얕게 동작하기 때문에.
