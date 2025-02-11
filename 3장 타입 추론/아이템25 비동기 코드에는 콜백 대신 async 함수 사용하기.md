@@ -17,9 +17,14 @@ function getUserName(id: number, callback: (name: string) => void) {
 }
 
 function main() {
+    let userId: number;
+    let userName: string;
+
     getUserId((id) => {
-        getUserName(id, (name) => {
-            console.log(`User: ${name}`);
+        userId = id;
+        getUserName(userId, (name) => {
+            userName = name;
+            console.log(`User ID: ${userId}, User: ${userName}`);
         });
     });
 }
@@ -40,12 +45,41 @@ function getUserName(🔲): 🔲 {
 }
 
 async function main() {
-    const id = 🔲;
-    const name = 🔲;
-    console.log(`User: ${name}`);
+    const userId = 🔲
+    const userName = 🔲
+    console.log(`User ID: ${userId}, User: ${userName}`);
+}
+
+main();
+```
+
+답:
+
+```ts
+/// TODO
+function getUserId(): Promise<number> {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(1), 1000);
+  });
+}
+
+function getUserName(): Promise<string> {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve("Alice"), 1000);
+  });
+}
+
+async function main() {
+  const userId = await getUserId();
+  const userName = await getUserName();
+  console.log(`User ID: ${userId}, User: ${userName}`);
 }
 
 main();
 ```
 
 ### Q2. 프로미스 대신 async/await을 사용할 때 얻을 수 있는 이점을 말해주세요. (유진)
+
+가독성이 좋아지고 코드가 간결해짐. <br/>
+예상치 못하게 작동하는 반동기를 줄이고 항상 비동기로 작동하게 할 수 있다. <br/>
+async 함수는 항상 프로미스를 반환하도록 강제함. 그래서 비동기로 작동하게 함.
