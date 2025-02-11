@@ -47,3 +47,5 @@ async function main() {
 
 main();
 ```
+
+### Q2. 프로미스 대신 async/await을 사용할 때 얻을 수 있는 이점을 말해주세요. (유진)
