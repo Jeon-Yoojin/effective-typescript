@@ -29,7 +29,7 @@ const user = getUser(1);
 sendEmail(user);
 ```
 ### Q2. 다음  두 코드의 차이점을 설명후 어떤 코드가 더 나은 코드인지 선택해주세요? (수영)
-```
+```ts
 class UserPostsA {
     user: UserInfo | null;
     posts: Post[] | null;
