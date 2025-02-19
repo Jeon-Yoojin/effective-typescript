@@ -28,3 +28,50 @@ function sendEmail(user: User) {
 const user = getUser(1);
 sendEmail(user);
 ```
+### Q2. 다음  두 코드의 차이점을 설명후 어떤 코드가 더 나은 코드인지 선택해주세요? (수영)
+```
+class UserPostsA {
+    user: UserInfo | null;
+    posts: Post[] | null;
+
+    constructor() {
+        this.user = null;
+        this.posts = null;
+    }
+
+    async init(userId: string) {
+        return Promise.all([
+            async() => this.user = await fetchUser(userId),
+            async() -> this.posts = await fetchPostsForUser(userId)
+        ])
+    }
+
+    getUserName() {
+        return this.user.name
+    }
+}
+
+class UserPostsB {
+    user: UserInfo;
+    posts: Post[];
+
+    constructor(user:UserInfo, posts:Post[]) {
+        this.user = user;
+        this.posts = posts;
+    }
+
+    static async init(userId: string) Promise<UserPosts> {
+        const [user, posts] = await Promise.all([
+            fetch(userId), 
+            fetchPostsForUser(userId)
+        ]);
+
+        return new UserPosts(user, posts);
+    }
+
+    getUserName() {
+        return this.user.name;
+    }
+}
+```
+
