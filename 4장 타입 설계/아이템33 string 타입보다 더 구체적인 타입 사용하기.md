@@ -16,3 +16,12 @@ function getProperty(obj: object, key: string) {
 const name = getProperty(user, "name");
 const email = getProperty(user, "email");
 ```
+### Q2. Album의 recodingType이 'studio', 'live' 두 가지일 경우 다음 interface의 문제점과 개선방안을 말해주세요 (수영)
+```ts
+interface Album {
+    artist : string;
+    title: string;
+    releaseDate: string;
+    recordingType: string;
+}
+```
