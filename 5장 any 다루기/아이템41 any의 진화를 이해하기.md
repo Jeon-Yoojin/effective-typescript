@@ -5,15 +5,16 @@
 ```ts
 // 예제1
 let value1;
-value1 = { name: "경민" };
-value2 = [41, 882, 3];
-value = new Map();
-value = () => "함수";
-
+value1 = { name: "경민" }; //object 
+value1 = [41, 882, 3]; //object 
+value1 = new Map(); //object
+value1 = () => "함수"; // function
+ 
 // 예제2
 let value2: any;
-value2 = 100;
-value2 = "TypeScript";
-value2 = [123, 234, 321];
-value2 = { language: "typescript" };
+value2 = 100; // any
+value2 = "TypeScript"; //any
+value2 = [123, 234, 321]; // any
+value2 = { language: "typescript" }; //any
 ```
+
