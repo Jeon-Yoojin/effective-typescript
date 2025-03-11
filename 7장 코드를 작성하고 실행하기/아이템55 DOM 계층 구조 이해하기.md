@@ -1,6 +1,6 @@
 # 아이템55 DOM 계층 구조 이해하기
 
-###Q1. 다음 함수의 오류부분과 오류를 수정해주세요(수영)
+### Q1. 다음 함수의 오류부분과 오류를 수정해주세요(수영)
 ```
 function handleDrag(eDown: Event) {
   const targetEl = eDown.currentTarget;
