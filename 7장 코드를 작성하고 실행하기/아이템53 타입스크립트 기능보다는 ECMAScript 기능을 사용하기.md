@@ -8,3 +8,12 @@ enum Flavor {
     STRAWBERY = 'strawberry'
 }
 ```
+
+### Q2. 문자열 열거형 타입(enum)을 사용한 다음 코드가 타입 오류가 나는 이유는 무엇인가요? (유진)
+```ts
+/* enum Flavor - Q1을 참고 */
+let flavor = Flavor.CHOCOLATE;
+
+flabor = 'strawberry';
+          ~~~~~~~~~~~
+```
