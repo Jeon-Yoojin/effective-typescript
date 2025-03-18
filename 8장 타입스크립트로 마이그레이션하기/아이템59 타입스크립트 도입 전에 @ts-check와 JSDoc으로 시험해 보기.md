@@ -7,6 +7,9 @@
 $("#graph").style({ width: "100px", height: "100px" });
 // ~ '$' 이름을 찾을 수 없습니다.
 ```
+1. $ npm install --save-dev @types/jquery 
+2. $("#graph").css({ width: "100px", height: "100px" }); 변경
+
 
 ### Q2. 다음 OX 퀴즈를 맞춰주세요. (경민)
 
@@ -15,3 +18,6 @@ $("#graph").style({ width: "100px", height: "100px" });
 - JSDoc을 활용해도 자바스크립트에서 타입 단언과 타입 추론은 불가능하다. (O, X)
 - JSDoc 주석은 유지보수를 고려하여 공들여 작성하는 편이 좋다. (O, X)
 ```
+1. O 
+2. X
+3. O -> X .ts로 변환하면 다 삭제해야하는 중간 단계이기 때문에 
