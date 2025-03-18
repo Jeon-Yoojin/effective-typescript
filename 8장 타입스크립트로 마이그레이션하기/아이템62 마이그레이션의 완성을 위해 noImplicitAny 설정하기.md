@@ -14,3 +14,15 @@ class Chart {
   }
 }
 ```
+
+### Q2. noImplicitAny를 활성화하면 다음 코드에서 어떤 오류가 발생할까요? 어떻게 수정하면 좋을까요? (경민)
+
+```ts
+function calculateTotal(items) {
+  let total = 0;
+  for (const item of items) {
+    total += item.price * item.quantity;
+  }
+  return total;
+}
+```
