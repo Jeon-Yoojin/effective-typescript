@@ -9,3 +9,10 @@ module.exports = {
   },
 };
 ```
+^ : 시작
+.+: 모든 문자열
+\\. : "."
+tsx?: ts or tsx
+$ : 마지막
+
+.ts or .tsx 형식의 파일을 실행하기 전에 ts-jest를 통해 javaScript로 변환 
